@@ -2,7 +2,7 @@ const global = {
     log: 1, //日志模式:0不显示 1全部显示 2精简显示,推荐值:1
     sign: { //用于设置哪些需要进行签到,哪些不处理
         baidu_tieba: true,
-        iqiyi: true,
+        iqiyi: flase,
         _52pojie: true,
         netease_music: true,
         v2ex: true,
@@ -10,7 +10,7 @@ const global = {
         eleme: true
     },
     data: {
-        china_telecom: "" //此处输入要签到的手机号码,半角双引号中间
+        china_telecom: "18983471983" //此处输入要签到的手机号码,半角双引号中间
     }
 }
 
